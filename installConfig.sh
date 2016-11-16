@@ -20,6 +20,7 @@ fi
 brew install fish
 brew install node
 brew install mas
+brew install carthage
 
 #
 # Cask
@@ -38,6 +39,7 @@ brew cask install postman
 brew cask install google-drive
 brew cask install flux
 brew cask install flash-player
+brew cask install macdown
 
 #
 # MAS
@@ -65,3 +67,9 @@ mas install 504544917
 
 # Fantastical 2
 mas install 975937182
+
+# Mindnode 2
+mas install 992076693
+
+# Erato
+mas install xxx
