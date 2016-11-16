@@ -1,1 +1,1 @@
-# macOS-install-script
+# My macOS install script
