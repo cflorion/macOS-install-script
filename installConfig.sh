@@ -40,6 +40,8 @@ brew cask install google-drive
 brew cask install flux
 brew cask install flash-player
 brew cask install macdown
+brew cask install subl
+brew cask install iterm2
 
 #
 # MAS
@@ -70,6 +72,3 @@ mas install 975937182
 
 # Mindnode 2
 mas install 992076693
-
-# Erato
-mas install xxx
