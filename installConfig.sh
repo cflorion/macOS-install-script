@@ -72,3 +72,6 @@ mas install 975937182
 
 # Mindnode 2
 mas install 992076693
+
+# Reeder
+mas install 880001334
