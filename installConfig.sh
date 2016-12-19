@@ -75,3 +75,6 @@ mas install 992076693
 
 # Reeder
 mas install 880001334
+
+# Cask
+mas install 1176895641
