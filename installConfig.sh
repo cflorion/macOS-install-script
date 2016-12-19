@@ -3,7 +3,6 @@
 #
 # Install HomeBrew
 #
-
 which -s brew
 if [[ $? != 0 ]] ; then
     # Install Homebrew
@@ -12,15 +11,20 @@ else
     brew update
 fi
 
-
 #
 # Brew
 #
-
+brew install cask
+brew install mas
 brew install fish
 brew install node
-brew install mas
 brew install carthage
+brew install rbenv
+
+#
+# Gem
+#
+gem install bundler
 
 #
 # Cask
@@ -42,39 +46,20 @@ brew cask install flash-player
 brew cask install macdown
 brew cask install subl
 brew cask install iterm2
+brew cask install molotov
 
 #
 # MAS
 #
-
 mas signin cflorion@gmail.com
-
-# Copied
-mas install 1026349850
-
-# Flexiglass
-mas install 426410278
-
-# Kaleidoscope
-mas install 587512244
-
-# Xcode
-mas install 497799835
-
-# Slack
-mas install 803453959
-
-# Clear
-mas install 504544917
-
-# Fantastical 2
-mas install 975937182
-
-# Mindnode 2
-mas install 992076693
-
-# Reeder
-mas install 880001334
-
-# Cask
-mas install 1176895641
+mas install 1026349850 # Copied
+mas install 426410278 # Flexiglass
+mas install 587512244 # Kaleidoscope
+mas install 497799835 # Xcode
+mas install 803453959 # Slack
+mas install 504544917 # Clear
+mas install 975937182 # Fantastical 2
+mas install 992076693 # Mindnode 2
+mas install 880001334 # Reeder
+mas install 1176895641 # Cask
+mas install 714196447 # MenuBar Stats
