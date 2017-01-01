@@ -98,5 +98,9 @@ defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
 # Set Default Finder Location of New Window to Home Folder
 defaults write com.apple.finder NewWindowTarget PfHm
 
+# Hot corners
+# https://github.com/ymendel/dotfiles/blob/master/osx/corners.defaults
+defaults write com.apple.dock wvous-tl-corner -int 2
+defaults write com.apple.dock wvous-tr-corner -int 4
 # Reboot
 sudo reboot
