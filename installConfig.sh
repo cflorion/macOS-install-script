@@ -96,8 +96,7 @@ mkdir ~/workspace
 defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
 
 # Set Default Finder Location of New Window to Home Folder
-defaults write com.apple.finder NewWindowTarget -string "PfLo" && \
-defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}"
+defaults write com.apple.finder NewWindowTarget PfHm
 
 # Reboot
 sudo reboot
