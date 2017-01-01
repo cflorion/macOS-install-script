@@ -20,11 +20,13 @@ brew install fish
 brew install node
 brew install carthage
 brew install rbenv
+brew install node
 
 #
 # Gem
 #
 gem install bundler
+sudo gem install cocoapods
 
 #
 # Cask
@@ -63,3 +65,30 @@ mas install 992076693 # Mindnode 2
 mas install 880001334 # Reeder
 mas install 1176895641 # Cask
 mas install 714196447 # MenuBar Stats
+
+#
+# Config
+#
+
+# Install Command Line Tools without Xcode
+xcode-select --install
+
+# Set Auto Show/Hide Delay
+# The float number defines the show/hide delay in ms.
+defaults write com.apple.Dock autohide-delay -float 0 && \
+killall Dock
+
+# Key Repeat
+# Disable the default "press and hold" behavior.
+defaults write -g ApplePressAndHoldEnabled -bool false
+
+# Key Repeat Rate
+# Sets a very fast repeat rate, adjust to taste.
+defaults write -g KeyRepeat -int 2
+
+# Create workspace directory
+mkdir ~/workspace
+
+# Reboot
+# Restart
+sudo reboot
