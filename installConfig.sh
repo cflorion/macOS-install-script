@@ -82,6 +82,9 @@ killall Dock
 # Disable the default "press and hold" behavior.
 defaults write -g ApplePressAndHoldEnabled -bool false
 
+# Autohide dock without animation
+defaults write com.apple.dock autohide-time-modifier -float 0; killall Dock
+
 # Key Repeat Rate
 # Sets a very fast repeat rate, adjust to taste.
 defaults write -g KeyRepeat -int 2
