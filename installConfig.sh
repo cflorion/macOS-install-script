@@ -99,6 +99,9 @@ defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
 # Set Default Finder Location of New Window to Home Folder
 defaults write com.apple.finder NewWindowTarget PfHm
 
+# Don't automatically rearrange Spaces based on most recent use
+defaults write com.apple.dock mru-spaces -bool false
+
 # Hot corners
 # https://github.com/ymendel/dotfiles/blob/master/osx/corners.defaults
 defaults write com.apple.dock wvous-tl-corner -int 2
