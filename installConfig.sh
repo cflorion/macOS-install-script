@@ -75,15 +75,16 @@ xcode-select --install
 
 # Set Auto Show/Hide Delay
 # The float number defines the show/hide delay in ms.
-defaults write com.apple.Dock autohide-delay -float 0 && \
+defaults write com.apple.dock autohide -bool true
+defaults write com.apple.Dock autohide-delay -float 0
+
+# Autohide dock without animation
+defaults write com.apple.dock autohide-time-modifier -float 0; killall Dock
 killall Dock
 
 # Key Repeat
 # Disable the default "press and hold" behavior.
 defaults write -g ApplePressAndHoldEnabled -bool false
-
-# Autohide dock without animation
-defaults write com.apple.dock autohide-time-modifier -float 0; killall Dock
 
 # Key Repeat Rate
 # Sets a very fast repeat rate, adjust to taste.
@@ -106,5 +107,6 @@ defaults write com.apple.dock mru-spaces -bool false
 # https://github.com/ymendel/dotfiles/blob/master/osx/corners.defaults
 defaults write com.apple.dock wvous-tl-corner -int 2
 defaults write com.apple.dock wvous-tr-corner -int 4
+
 # Reboot
 sudo reboot
