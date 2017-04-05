@@ -43,7 +43,6 @@ brew cask install slack
 brew cask install sketch
 brew cask install postman
 brew cask install google-drive
-brew cask install flux
 brew cask install flash-player
 brew cask install macdown
 brew cask install subl
