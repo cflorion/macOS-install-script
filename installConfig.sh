@@ -33,25 +33,19 @@ sudo gem install cocoapods
 #
 # Cask
 #
-brew cask install dropbox
 brew cask install sublime-text
-brew cask install atom
-brew cask install alfred
 brew cask install google-chrome
 brew cask install vlc
 brew cask install utorrent
 brew cask install tower
 brew cask install spotify
-brew cask install slack
 brew cask install sketch
 brew cask install postman
 brew cask install google-drive
 brew cask install flash-player
 brew cask install macdown
 brew cask install subl
-brew cask install iterm2
 brew cask install molotov
-brew cask install spark
 brew cask install whatsapp
 brew cask install android-studio
 brew cask install visual-studio-code
@@ -68,12 +62,10 @@ mas install 1026349850 #
 mas install 426410278 # Flexiglass
 mas install 587512244 # Kaleidoscope
 mas install 497799835 # Xcode
-mas install 803453959 # Slack
 mas install 504544917 # Clear
 mas install 975937182 # Fantastical 2
 mas install 992076693 # Mindnode 2
-mas install 880001334 # Reeder
-mas install 1176895641 # Cask
+mas install 1176895641 # Spark
 mas install 714196447 # MenuBar Stats
 mas install 1026349850 # Copied
 
