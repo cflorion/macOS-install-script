@@ -21,8 +21,7 @@ brew install node
 brew install carthage
 brew install rbenv
 brew install node
-brew install android-studio
-brew install visual-studio-code
+
 
 
 #
@@ -54,6 +53,11 @@ brew cask install iterm2
 brew cask install molotov
 brew cask install spark
 brew cask install whatsapp
+brew cask install android-studio
+brew cask install visual-studio-code
+brew cask install franz
+brew cask install postman
+brew cask install intellij-idea
 
 #
 # MAS
