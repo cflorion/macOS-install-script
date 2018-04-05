@@ -52,6 +52,8 @@ brew cask install macdown
 brew cask install subl
 brew cask install iterm2
 brew cask install molotov
+brew cask install spark
+brew cask install whatsapp
 
 #
 # MAS
