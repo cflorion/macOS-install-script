@@ -21,6 +21,9 @@ brew install node
 brew install carthage
 brew install rbenv
 brew install node
+brew install android-studio
+brew install visual-studio-code
+
 
 #
 # Gem
@@ -54,7 +57,8 @@ brew cask install molotov
 # MAS
 #
 mas signin cflorion@gmail.com
-mas install 1026349850 # Copied
+mas install 1026349850 # 
+
 mas install 426410278 # Flexiglass
 mas install 587512244 # Kaleidoscope
 mas install 497799835 # Xcode
