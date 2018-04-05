@@ -69,6 +69,7 @@ mas install 992076693 # Mindnode 2
 mas install 880001334 # Reeder
 mas install 1176895641 # Cask
 mas install 714196447 # MenuBar Stats
+mas install 1026349850 # Copied
 
 #
 # Config
