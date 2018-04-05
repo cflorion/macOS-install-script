@@ -131,16 +131,16 @@ defaults write com.apple.dock autohide-time-modifier -float 0; killall Dock
 ## CLAVIER ET TRACKPAD
 
 # Accès au clavier complet (tabulation dans les boîtes de dialogue)
-sudo defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+# sudo defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
 # Key Repeat
 # Disable the default "press and hold" behavior.
-defaults write -g ApplePressAndHoldEnabled -bool false
+# defaults write -g ApplePressAndHoldEnabled -bool false
 
 # Key Repeat Rate
 # Sets a very fast repeat rate, adjust to taste.
-defaults write NSGlobalDomain KeyRepeat -int 2
-defaults write NSGlobalDomain InitialKeyRepeat -int 15
+# defaults write NSGlobalDomain KeyRepeat -int 2
+# defaults write NSGlobalDomain InitialKeyRepeat -int 15
 
 # Réglages Trackpad : toucher pour cliquer
 sudo defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
