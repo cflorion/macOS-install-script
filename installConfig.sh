@@ -52,6 +52,7 @@ brew cask install visual-studio-code
 brew cask install franz
 brew cask install postman
 brew cask install intellij-idea
+brew cask install yt-music
 
 #
 # MAS
