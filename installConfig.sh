@@ -53,6 +53,7 @@ brew cask install franz
 brew cask install postman
 brew cask install intellij-idea
 brew cask install yt-music
+brew cask install firefox
 
 #
 # MAS
