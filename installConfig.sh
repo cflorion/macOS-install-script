@@ -44,6 +44,7 @@ brew cask install visual-studio-code
 brew cask install intellij-idea
 brew cask install yt-music
 brew cask install firefox
+brew cask install google-backup-and-sync
 
 #
 # MAS
