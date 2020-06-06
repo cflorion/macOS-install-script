@@ -60,6 +60,7 @@ mas install 595191960 # Copy Clip History
 mas install 441258766 # Magnet
 mas install 1289583905 # Pixelmator Pro
 mas install 1415817706 # Tadama
+mas install 1176895641 # Spark
 
 #
 # Config
