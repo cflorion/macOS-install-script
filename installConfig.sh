@@ -40,6 +40,11 @@ brew cask install postman
 brew cask install visual-studio-code
 brew cask install yt-music
 brew cask install firefox
+brew cask install motrix
+brew cask install simsim
+brew cask install tadama
+brew cask install zenmate-vpn
+brew cask install gitkraken
 
 #
 # MAS
@@ -51,6 +56,10 @@ mas install 587512244 # Kaleidoscope
 mas install 497799835 # Xcode
 mas install 714196447 # MenuBar Stats
 mas install 1026349850 # Copied
+mas install 595191960 # Copy Clip History
+mas install 441258766 # Magnet
+mas install 1289583905 # Pixelmator Pro
+mas install 1415817706 # Tadama
 
 #
 # Config
@@ -106,7 +115,7 @@ defaults write com.apple.dock autohide-time-modifier -float 0; killall Dock
 ## CLAVIER ET TRACKPAD
 
 # Accès au clavier complet (tabulation dans les boîtes de dialogue)
-# sudo defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+sudo defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
 # Key Repeat
 # Disable the default "press and hold" behavior.
@@ -114,8 +123,8 @@ defaults write com.apple.dock autohide-time-modifier -float 0; killall Dock
 
 # Key Repeat Rate
 # Sets a very fast repeat rate, adjust to taste.
-# defaults write NSGlobalDomain KeyRepeat -int 2
-# defaults write NSGlobalDomain InitialKeyRepeat -int 15
+defaults write NSGlobalDomain KeyRepeat -int 2
+defaults write NSGlobalDomain InitialKeyRepeat -int 15
 
 # Réglages Trackpad : toucher pour cliquer
 sudo defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
