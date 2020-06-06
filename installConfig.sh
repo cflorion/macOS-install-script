@@ -34,17 +34,12 @@ sudo gem install cocoapods
 brew cask install sublime-text
 brew cask install google-chrome
 brew cask install vlc
-brew cask install utorrent
 brew cask install tower
 brew cask install sketch
 brew cask install postman
-brew cask install google-drive
-brew cask install android-studio
 brew cask install visual-studio-code
-brew cask install intellij-idea
 brew cask install yt-music
 brew cask install firefox
-brew cask install google-backup-and-sync
 
 #
 # MAS
@@ -52,10 +47,8 @@ brew cask install google-backup-and-sync
 mas signin cflorion@gmail.com
 mas install 1026349850 # 
 
-mas install 426410278 # Flexiglass
 mas install 587512244 # Kaleidoscope
 mas install 497799835 # Xcode
-mas install 992076693 # Mindnode 2
 mas install 714196447 # MenuBar Stats
 mas install 1026349850 # Copied
 
