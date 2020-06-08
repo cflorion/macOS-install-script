@@ -45,9 +45,10 @@ brew cask install simsim
 brew cask install tadama
 brew cask install zenmate-vpn
 brew cask install gitkraken
+brew cask install slack
 
 #
-# MAS
+# Mac App Store
 #
 mas signin cflorion@gmail.com
 mas install 1026349850 # 
