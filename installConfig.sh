@@ -46,6 +46,7 @@ brew cask install tadama
 brew cask install zenmate-vpn
 brew cask install gitkraken
 brew cask install slack
+brew cask install iTerm2
 
 #
 # Mac App Store
