@@ -47,6 +47,7 @@ brew cask install zenmate-vpn
 brew cask install gitkraken
 brew cask install slack
 brew cask install iTerm2
+brew cask install logitech-options
 
 #
 # Mac App Store
@@ -63,6 +64,7 @@ mas install 441258766 # Magnet
 mas install 1289583905 # Pixelmator Pro
 mas install 1415817706 # Tadama
 mas install 1176895641 # Spark
+mas install 1020812363 # CopyClip 2
 
 #
 # Config
