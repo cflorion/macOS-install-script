@@ -47,7 +47,7 @@ brew cask install zenmate-vpn
 brew cask install gitkraken
 brew cask install slack
 brew cask install iTerm2
-brew cask install logitech-options
+brew cask install homebrew/cask-drivers/logitech-options
 
 #
 # Mac App Store
