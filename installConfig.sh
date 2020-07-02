@@ -51,6 +51,7 @@ brew cask install homebrew/cask-drivers/logitech-options
 brew cask install macdown
 brew cask install virtualbox
 brew install docker docker-machine
+brew install docker
 
 #
 # Mac App Store
