@@ -49,6 +49,8 @@ brew cask install slack
 brew cask install iTerm2
 brew cask install homebrew/cask-drivers/logitech-options
 brew cask install macdown
+brew cask install virtualbox
+brew install docker docker-machine
 
 #
 # Mac App Store
