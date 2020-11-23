@@ -50,8 +50,6 @@ brew cask install iTerm2
 brew cask install homebrew/cask-drivers/logitech-options
 brew cask install macdown
 brew cask install virtualbox
-brew install docker docker-machine
-brew install docker
 
 #
 # Mac App Store
@@ -62,8 +60,6 @@ mas install 1026349850 #
 mas install 587512244 # Kaleidoscope
 mas install 497799835 # Xcode
 mas install 714196447 # MenuBar Stats
-mas install 1026349850 # Copied
-mas install 595191960 # Copy Clip History
 mas install 441258766 # Magnet
 mas install 1289583905 # Pixelmator Pro
 mas install 1415817706 # Tadama
