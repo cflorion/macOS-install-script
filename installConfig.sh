@@ -54,9 +54,6 @@ brew cask install virtualbox
 #
 # Mac App Store
 #
-mas signin cflorion@gmail.com
-mas install 1026349850 # 
-
 mas install 587512244 # Kaleidoscope
 mas install 497799835 # Xcode
 mas install 714196447 # MenuBar Stats
