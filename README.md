@@ -2,7 +2,7 @@
 
 
 ## Avant
-Sauvegarder ~/Desktop et ~/workspace
+Sauvegarder ~/Desktop, ~/workspace, clés SSH
 
 ## Après
 
