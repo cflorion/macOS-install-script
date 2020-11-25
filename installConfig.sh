@@ -61,7 +61,7 @@ mas install 441258766 # Magnet
 mas install 1289583905 # Pixelmator Pro
 mas install 1415817706 # Tadama
 mas install 1176895641 # Spark
-mas install 1020812363 # CopyClip 2
+mas install 595191960 # CopyClip
 
 #
 # Config
