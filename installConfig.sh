@@ -19,6 +19,7 @@ brew install mas
 brew install carthage
 brew install rbenv
 brew install node
+brew cask install slack
 
 
 #
