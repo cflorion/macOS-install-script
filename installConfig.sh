@@ -63,6 +63,9 @@ mas install 1289583905 # Pixelmator Pro
 mas install 1415817706 # Tadama
 mas install 1176895641 # Spark
 mas install 595191960 # CopyClip
+mas install 409203825 # Numbers
+mas install 409201541 # Pages
+mas install 409183694 # Keynote
 
 #
 # Config
