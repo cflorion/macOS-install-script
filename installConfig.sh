@@ -31,6 +31,7 @@ sudo gem install cocoapods
 #
 # Cask
 #
+brew cask install slack
 brew cask install sublime-text
 brew cask install google-chrome
 brew cask install vlc
