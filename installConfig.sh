@@ -23,33 +23,33 @@ brew install node
 #
 # Gem
 #
-gem install bundler
+sudo gem install bundler
 sudo gem install cocoapods
 
 #
 # Cask
 #
 brew install slack
-brew cask install sublime-text
-brew cask install google-chrome
-brew cask install vlc
-brew cask install tower
-brew cask install sketch
-brew cask install postman
-brew cask install visual-studio-code
-brew cask install yt-music
-brew cask install firefox
-brew cask install motrix
-brew cask install simsim
-brew cask install tadama
-brew cask install zenmate-vpn
-brew cask install gitkraken
-brew cask install slack
-brew cask install iTerm2
-brew cask install homebrew/cask-drivers/logitech-options
-brew cask install macdown
-brew cask install virtualbox
-brew cask install android-studio
+brew install sublime-text
+brew install google-chrome
+brew install vlc
+brew install tower
+brew install sketch
+brew install postman
+brew install visual-studio-code
+brew install yt-music
+brew install firefox
+brew install motrix
+brew install simsim
+brew install tadama
+brew install zenmate-vpn
+brew install gitkraken
+brew install slack
+brew install iTerm2
+brew install homebrew/cask-drivers/logitech-options
+brew install macdown
+brew install virtualbox
+brew install android-studio
 
 #
 # Mac App Store
