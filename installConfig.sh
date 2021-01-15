@@ -19,8 +19,6 @@ brew install mas
 brew install carthage
 brew install rbenv
 brew install node
-brew cask install slack
-
 
 #
 # Gem
@@ -31,7 +29,7 @@ sudo gem install cocoapods
 #
 # Cask
 #
-brew cask install slack
+brew install slack
 brew cask install sublime-text
 brew cask install google-chrome
 brew cask install vlc
