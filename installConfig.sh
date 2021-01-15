@@ -50,6 +50,7 @@ brew install homebrew/cask-drivers/logitech-options
 brew install macdown
 brew install virtualbox
 brew install android-studio
+brew install homebrew/cask-drivers/logitech-options
 
 #
 # Mac App Store
