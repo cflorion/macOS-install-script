@@ -23,7 +23,9 @@ NB: put your Github username instead of `*******`
 
 
 sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    activate John
-    John-->>Alice: Great!
-    deactivate John
+  A->> B: Query
+  B->> C: Forward query
+  Note right of C: Thinking...
+  C->> B: Response
+  B->> A: Forward response
+
