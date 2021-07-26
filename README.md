@@ -20,12 +20,3 @@ NB: put your Github username instead of `*******`
   pushInsteadOf = "git://github.com/"
 [url "git@github.com:"]
   pushInsteadOf = "https://github.com/"
-
-```mermaid
-sequenceDiagram
-  A->> B: Query
-  B->> C: Forward query
-  Note right of C: Thinking...
-  C->> B: Response
-  B->> A: Forward response
-
