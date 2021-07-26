@@ -21,7 +21,7 @@ NB: put your Github username instead of `*******`
 [url "git@github.com:"]
   pushInsteadOf = "https://github.com/"
 
-
+```mermaid
 sequenceDiagram
   A->> B: Query
   B->> C: Forward query
