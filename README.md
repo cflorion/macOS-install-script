@@ -20,3 +20,10 @@ NB: put your Github username instead of `*******`
   pushInsteadOf = "git://github.com/"
 [url "git@github.com:"]
   pushInsteadOf = "https://github.com/"
+
+
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    activate John
+    John-->>Alice: Great!
+    deactivate John
