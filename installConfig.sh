@@ -52,6 +52,7 @@ brew install virtualbox
 brew install android-studio
 brew install homebrew/cask-drivers/logitech-options
 brew install --cask nightfall
+brew install monitorcontrol
 
 #
 # Mac App Store
