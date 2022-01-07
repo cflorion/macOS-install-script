@@ -53,6 +53,7 @@ brew install android-studio
 brew install homebrew/cask-drivers/logitech-options
 brew install --cask nightfall
 brew install monitorcontrol
+brew install spotify
 
 #
 # Mac App Store
