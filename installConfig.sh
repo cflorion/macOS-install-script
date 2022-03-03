@@ -54,6 +54,7 @@ brew install telegram
 brew install logitech-options
 brew install loom
 brew install dashlane
+brew install notion
 
 #
 # Mac App Store
