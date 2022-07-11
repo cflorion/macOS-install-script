@@ -55,6 +55,7 @@ brew install logitech-options
 brew install loom
 brew install dashlane
 brew install notion
+brew install fig
 
 #
 # Mac App Store
